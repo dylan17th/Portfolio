@@ -99,11 +99,6 @@ table {
     margin-top: 5rem;
     margin-right: 3rem;
 }
-.dylan:hover{
-    opacity: 1;
-    transform: scale(1.2);
-    transition: .3s;
-}
 
 .projects-button{
     width: 100%;

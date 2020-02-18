@@ -48,4 +48,19 @@ function buttonCreator (text, url){
 //appending child to the the body class 
 container.appendChild(buttonCreator('View Projects','../projects.html'));
 
+//creating a variable for thw image element
+const image = document.querySelector('.dylan');
 
+//adding an eventlistener for the image for when the mouse goes over
+image.addEventListener('mouseover', ()=> {
+    image.style.opacity = '1';
+    image.style.transform= 'scale(1.2)';
+    image.style.transition= '.3s';
+})
+
+//adding an eventlistener for the image for when the mouse leaves 
+image.addEventListener('mouseleave', ()=> {
+    image.style.opacity = '.8';
+    image.style.transform= 'scale(1.0)';
+    image.style.transition= '.3s';
+})
