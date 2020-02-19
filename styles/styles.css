@@ -31,11 +31,12 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: url("/images/purple-phil.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
+    background-color:#145250;
     font-size: 62.5%;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
+	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
+	-1px 0 0 #000; 
 }
 ol, ul {
 	list-style: none;
@@ -53,25 +54,24 @@ table {
 	border-spacing: 0;
 }
 .nav div a{
-    color: #FDD023;
     text-align: center;
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    /* border: black solid 2px; */
     padding-top: .9rem;
+    color:#145250;
 }
-.nav div{
-    color: #FDD023;
     
-}
 
 .nav{
     display:flex; 
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
     padding:1.5rem;
-    /* border: black solid 2px; */
+    background-color: rgb(48, 158, 121);
+    margin: 1rem;
+    border-radius: 10px;
 }
 .text{
     font-size: 1rem;
@@ -81,7 +81,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: black solid 3px; */
+    color:#145250;
 }
 .name div{
     padding: .3rem;
@@ -95,7 +95,7 @@ table {
 
 .dylan{
     border-radius: 10rem;
-    opacity: .9 ;
+    opacity: .9;
     margin-top: 5rem;
     margin-right: 3rem;
 }
@@ -107,10 +107,11 @@ table {
     margin-right: 3.5rem ;
 }
 .projects-button a{
-    color:#FDD023;
+    color:rgb(48, 158, 121);
     font-size: 2.5rem;
-    border: #FDD023 solid 2px;
+    border: rgb(48, 158, 121) solid 2px;
     padding: .5rem 2rem;
+    border-radius: 10px;
 }
 .tranparent{
     opacity: .1;

@@ -60,7 +60,7 @@ image.addEventListener('mouseover', ()=> {
 
 //adding an eventlistener for the image for when the mouse leaves 
 image.addEventListener('mouseleave', ()=> {
-    image.style.opacity = '.8';
+    image.style.opacity = '.9';
     image.style.transform= 'scale(1.0)';
     image.style.transition= '.3s';
 })
