@@ -28,15 +28,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.body2{
+    background-color: white;
+}
+
 
 body {
     line-height: 1;
-    background-color:#145250;
+    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+    /* background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%); */
+    
     font-size: 62.5%;
     box-sizing: border-box;  
     text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 0 -1px 0 #000,
 	0 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 0 0 #000,
-	-1px 0 0 #000; 
+    -1px 0 0 #000; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 ol, ul {
 	list-style: none;
@@ -62,16 +71,19 @@ table {
     color:#145250;
 }
     
-
+.navigation{
+    width: 100%;
+}
 .nav{
     display:flex; 
     justify-content: space-around;
     font-size: 2.5rem;
     letter-spacing: 2px;
     padding:1.5rem;
-    background-color: rgb(48, 158, 121);
+    background-color: rgb(19, 148, 88) ;
     margin: 1rem;
     border-radius: 10px;
+    border: black solid 2px;
 }
 .text{
     font-size: 1.5rem;
@@ -82,38 +94,102 @@ table {
     flex-direction: column;
     align-items: center;
     color:#145250;
+    margin-left: 3rem;
 }
 .name div{
     padding: .3rem;
 }
-.body{
+/* .body{
  display:flex;
  justify-content: center;
  flex-wrap: wrap;
+ background-color: rgb(19, 148, 88);
+ width: 30%;
+ height: 70vh;
+ border-radius: 20px;
+ text-align: center;
+ border: #000 solid 2px;
+} */
 
-}
-
-.dylan{
+/* .dylan{
     border-radius: 10rem;
-    opacity: .9;
     margin-top: 5rem;
-    margin-right: 3rem;
+    border: #000 solid 1px;
     
-}
+} */
 
 .projects-button{
     width: 100%;
     text-align: center;
-    margin-top: 4rem;
-    margin-right: 3.5rem ;
+    margin-top: 15rem;
+    margin-bottom: 18rem;
 }
 .projects-button a{
-    color:rgb(48, 158, 121);
+    color:#145250;
     font-size: 2.5rem;
-    border: rgb(48, 158, 121) solid 2px;
+    border: black solid 2px;
     padding: .5rem 2rem;
     border-radius: 10px;
+    background-color: rgb(19, 148, 88);
 }
-.tranparent{
-    opacity: .1;
+
+.title{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(19, 148, 88)  ;
+    margin:1.5rem;
+}
+.copy{
+    width:100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(48, 158, 121);
+}
+.body2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container{
+    background-color:rgb(19, 148, 88) ;
+    padding:2rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    margin: 3rem 1rem;
+    color:#145250;
+    border: black solid 2px;  
+    line-height: 3rem;
+    letter-spacing: 3px;
+}
+
+.button{
+    border: black solid 1px;
+    padding: .1rem 2rem;
+    background-color:#145250 ;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.button a {
+    text-decoration: none;
+    color: rgb(48, 158, 121);
+}
+.picture{
+    border: black solid 2px;
+    border-radius: 10px;
+    margin:1rem;
+}
+.hide{
+    display:none
+}
+.open{
+    display: block;
+    text-shadow:none;
+    color: black;
+    font-size: 1rem;
 }

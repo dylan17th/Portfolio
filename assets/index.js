@@ -30,17 +30,14 @@ function buttonCreator (text, url){
     span.textContent = text; 
     anchor.href = url;
     anchor.style.textDecoration = "none";
-    button.style.opacity= '.8'
 
     button.addEventListener('mouseover', ()=> {
         button.style.transform = 'scale(1.3)'; 
         button.style.transition = 'transform .5s';
-        button.style.opacity = '5';
     })
 
     button.addEventListener('mouseleave', ()=> {
         button.style.transform = 'scale(1.0)';
-        button.style.opacity = '.8';
     })
     return button
 }
@@ -48,19 +45,4 @@ function buttonCreator (text, url){
 //appending child to the the body class 
 container.appendChild(buttonCreator('View Projects','../projects.html'));
 
-//creating a variable for thw image element
-const image = document.querySelector('.dylan');
 
-//adding an eventlistener for the image for when the mouse goes over
-image.addEventListener('mouseover', ()=> {
-    image.style.opacity = '1';
-    image.style.transform= 'scale(1.2)';
-    image.style.transition= '.3s';
-})
-
-//adding an eventlistener for the image for when the mouse leaves 
-image.addEventListener('mouseleave', ()=> {
-    image.style.opacity = '.9';
-    image.style.transform= 'scale(1.0)';
-    image.style.transition= '.3s';
-})
