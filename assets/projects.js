@@ -16,25 +16,25 @@ anchorTags.forEach( item => item.addEventListener('mouseleave', function (){
 }))
 
 //creating a component for the projects 
-function cardCreator(image, name, link, description){
-    //creating elements for the component and giving classes to elements 
-    const card = document.createElement('div');
-    card.classList.add('container');
-    const img = document.createElement('img');
-    const title = document.createElement('h2');
-    const button = document.createElement('div');
-    button.classList.add('button');
-    const anchor = document.createElement('a');
-    const description = document.createElement('p');
+// function cardCreator(image, name, link, description){
+//     //creating elements for the component and giving classes to elements 
+//     const card = document.createElement('div');
+//     card.classList.add('container');
+//     const img = document.createElement('img');
+//     const title = document.createElement('h2');
+//     const button = document.createElement('div');
+//     button.classList.add('button');
+//     const anchor = document.createElement('a');
+//     const description = document.createElement('p');
 
-    //appending children into the card
-    card.appendChild();
-    card.appendChild();
-    card.appendChild();
-    card.appendChild();
-
-
+//     //appending children into the card
+//     card.appendChild();
+//     card.appendChild();
+//     card.appendChild();
+//     card.appendChild();
 
 
-return card
-}
+
+
+// return card
+// }
