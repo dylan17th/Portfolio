@@ -101,7 +101,7 @@ function cardCreator(image, name, link, descript){
 const entry = document.querySelector('.body2');
 
 //appending the card creator function to the body class
-entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'this is going to be the description'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'this is going to be the description'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'this is going to be the description'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'this is going to be the description'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'This website was developed by 8 full stack web developers, including myself. We where all assigned to work on a particular portion of the website during our build week at Lambda. It was my job to design, create and format the marketing pages. It was my job to come up with a simple, but elegant design for the website because my group was without a UX designer. I developed the home and about page for the website. This was my first Project working with HTML, CSS and the preprocessor less.'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));

@@ -184,3 +184,64 @@ table {
     color: black;
     font-size: 1rem;
 }
+
+
+  @media(max-width:1000px) {
+    .nav{
+        flex-wrap: wrap;
+        padding: .5rem;
+    }
+    .name{
+        order:-1;
+        margin-left:0px;
+        text-align: center;
+        line-height: 3rem;
+        padding:2rem; 
+        width:100%;
+        border-bottom:black solid 2px;
+  }
+  .projects-button{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+  }
+  @media(max-width:830px) {
+    .container{
+        width:50%;
+    }
+    .projects-button{
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+    @media(max-width: 650px){
+        .container{
+            width:80%;
+        }
+    }
+
+    @media(max-width: 500px) {
+        .nav{
+            flex-wrap: wrap;
+            padding: .5rem;
+        }
+        .name{
+            order:-1;
+            margin-left:0px;
+            text-align: center;
+            line-height: 3rem;
+            padding:2rem;
+            border-bottom: #000 solid 2px;
+     
+        }
+     
+        .projects-button{
+            margin-top: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        .container{
+            width:80%;
+        }
+    }
