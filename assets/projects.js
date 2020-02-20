@@ -16,7 +16,7 @@ anchorTags.forEach( item => item.addEventListener('mouseleave', function (){
 }))
 
 //creating a component for the projects 
-function cardCreator(image, name, link, descript){
+function cardCreator(image, name, link, descript, anchorText){
     //creating elements for the component and giving classes to elements 
     const card = document.createElement('div');
     card.classList.add('container');
@@ -49,7 +49,7 @@ function cardCreator(image, name, link, descript){
     title.textContent = name; 
     img.src = image;
     anchor.href = link;
-    anchor.textContent = 'View Website';
+    anchor.textContent = anchorText;
     description.textContent = descript;
     textDiv.textContent = "Description";
     buttonDe.textContent ='\u25BC';
@@ -101,7 +101,7 @@ function cardCreator(image, name, link, descript){
 const entry = document.querySelector('.body2');
 
 //appending the card creator function to the body class
-entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'This website was developed by 8 full stack web developers, including myself. We where all assigned to work on a particular portion of the website during our build week at Lambda. It was my job to design, create and format the marketing pages. It was my job to come up with a simple, but elegant design for the website because my group was without a UX designer. I developed the home and about page for the website. This was my first Project working with HTML, CSS and the preprocessor less.'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));
-entry.appendChild(cardCreator( '../images/planet-planners.png','More to come','https://planetplanners.netlify.com/', 'this is going to be the description'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','Planet Planners','https://planetplanners.netlify.com/', 'This website was developed by 8 full stack web developers, including myself. We where all assigned to work on a particular portion of the website during our build week at Lambda. It was my job to design, create and format the marketing pages. It was my job to come up with a simple, but elegant design for the website because my group was without a UX designer. I developed the home and about page for the website. This was my first Project working with HTML, CSS and the preprocessor less.','View Website'));
+entry.appendChild(cardCreator( '../images/planet-planners.png','NASA Photo of The Day','https://github.com/dylan17th/nasa-photo-of-the-day', 'this is going to be the description', 'View Repository'));
+entry.appendChild(cardCreator( '../images/lambda-Times.png','Lamba Times','https://github.com/dylan17th/Sprint-Challenge-Applied-Javascript', 'this is going to be the description','View Repository'));
+entry.appendChild(cardCreator( '../images/github.png',"Github Username Cards",'https://github.com/dylan17th/github-usercard', 'this is going to be the description','View Repository'));
