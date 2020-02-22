@@ -106,6 +106,10 @@ table {
     margin:3rem;
     border:solid black 2px;
     border-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    text-align: center;
     
 }
 
@@ -123,6 +127,7 @@ table {
     border-radius: 10px;
     background-color: rgb(19, 148, 88);
 }
+
 
 .title{
     font-size: 5rem;
