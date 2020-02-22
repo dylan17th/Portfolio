@@ -127,7 +127,7 @@ table {
 .title{
     font-size: 5rem;
     text-align: center;
-    color: rgb(19, 148, 88)  ;
+    color: rgb(19, 148, 88);
     margin:1.5rem;
 }
 .copy{
@@ -226,9 +226,11 @@ table {
         .nav{
             flex-wrap: wrap;
             padding: .5rem;
-        
+
+
+    
         }
-        .tabs{
+       .tabs{
             width:50%;
         }
         .name{
@@ -247,5 +249,8 @@ table {
         }
         .container{
             width:80%;
+        }
+        .body2{
+            width:90%;
         }
     }
