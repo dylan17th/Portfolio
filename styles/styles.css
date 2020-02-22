@@ -226,6 +226,10 @@ table {
         .nav{
             flex-wrap: wrap;
             padding: .5rem;
+        
+        }
+        .tabs{
+            width:50%;
         }
         .name{
             order:-1;
