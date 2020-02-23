@@ -113,6 +113,7 @@ table {
     
 }
 
+
 .projects-button{
     width: 100%;
     text-align: center;
@@ -258,4 +259,8 @@ table {
         .body2{
             width:90%;
         }
+    }
+    .temp{
+        font-size: 5rem;
+        text-align: center;
     }
